@@ -16,7 +16,7 @@ public class Main {
 
     }
     public static void main(String [] args) {
-        Integer brojevi[] = new Integer [] {
+        int brojevi[] = new int [] {
                 11,12,41,12,243,42,123
         } ;
         Arrays.sort(brojevi, (x, y) -> sum(x) - sum(y));
